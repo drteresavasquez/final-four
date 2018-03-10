@@ -1,0 +1,67 @@
+{
+    "east": [{
+            "school": "Vilanova",
+            "place": 1
+        },
+        {
+            "school": "Duke",
+            "place": 2
+        },
+        {
+            "school": "Baylor",
+            "place": 3
+        }, 
+        {
+            "school": "Florida",
+            "place": 4
+        }, 
+        {
+            "school": "Virginia",
+            "place": 5
+        }, 
+        {
+            "school": "SMU",
+            "place": 6
+        }, 
+        {
+            "school": "S. Carolina",
+            "place": 7
+        }, 
+        {
+            "school": "Wisconsin",
+            "place": 8
+        }, 
+        {
+            "school": "Va. Tech",
+            "place": 9
+        }, 
+        {
+            "school": "Marquette",
+            "place": 10
+        }, 
+        {
+            "school": "USC",
+            "place": 11
+        }, 
+        {
+            "school": "UNC-Wilm.",
+            "place": 12
+        }, 
+        {
+            "school": "ETSU",
+            "place": 13
+        }, 
+        {
+            "school": "New Mex St.",
+            "place": 14
+        }, 
+        {
+            "school": "Troy",
+            "place": 15
+        }, 
+        {
+            "school": "Mt. St. Mary’s",
+            "place": 16
+        }
+    ]
+}
