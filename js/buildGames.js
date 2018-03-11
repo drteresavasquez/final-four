@@ -27,7 +27,7 @@ let buildGames = (array, area) => {
         gameNums.forEach((num) => {
             if (item.place === num) {
                 let game = {
-                    "gameID": `${area}-${num}`,
+                    "gameID": num,
                     "T1": item.school,
                     "T1score": 0,
                     "T2": array[16 - num].school,
