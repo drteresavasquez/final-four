@@ -24,7 +24,7 @@ For this challenge we’ve been tasked with creating interactive ways for fans t
 
 While not everyone is a sports fan this challenge involves the usage and manipulation of objects, arrays, and several other data types along with creating interactive user interfaces.
 
-## Challenge - Level 1
+## Challenge - Level 1 *CHALLENGE COMPLETE*
 
 In the js directory, there are 4 JSON files (east, west, midwest, and south) that include a list of ranking from the first round of last year’s NCAA tournament. For each region (East, West, Midwest, South) pair up the teams that will play each other and display them as a pair. For example in the East region Vilanova will play Mt. St. Mary’s in the first round.
 

@@ -21,18 +21,24 @@ let initialRun = (area) => {
 
 // Builds the bracket dynamically
 let buildGames = (array, area) => {
-    let gameNums = [1,2,3,4,5,6,7,8];
+    let gameNums = [1, 2, 3, 4, 5, 6, 7, 8];
     array.forEach((item, index) => {
-        gameNums.forEach((num)=>{
+        gameNums.forEach((num) => {
             if (item.place === num) {
                 let game = {
                     "gameID": `${area}-${num}`,
                     "T1": item.school,
                     "T1score": 0,
-                    "T2": array[16-num].school,
+                    "T2": array[16 - num].school,
                     "T2score": 0
                 };
                 getData.addData(game, area);
+
+                $(".container").append(
+                    `<h5>${area.toUpperCase()} Game ${num}</h5>
+                    <p>Team 1: ${item.school} (${item.place})<br>
+                    Team 2: ${array[16-num].school} (${array[16-num].place})</p>`
+                );
             }
         });
     });
