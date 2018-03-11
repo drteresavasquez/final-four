@@ -3,7 +3,7 @@
 let $ = require('jquery'),
     getData = require('./getData');
 
-// Checks to ensure there are games in the DB for each conference and adds them if not
+// Checks to ensure there are games in the DB for each conference. If not, the program matches up the teams based on rank and adds them to the DB
 let initialRun = (area) => {
     getData.getData(`./js/${area}.json`)
         .then((data) => {
