@@ -43,3 +43,19 @@ Since users are allowed to predict the outcome of games they will want to know i
 ### A Step Further
 
 Add in scores from the games that have been played so that users can see the scores for each team once the have finished a game. Going even further add in scores of games being played currently with a way of identifying them as in progress vs final scores.
+
+## Built With
+
+* Bootstrap 4
+* Firebase
+* JavaScript/JQuery
+
+## Contributors
+
+* **Dr. Teresa Vasquez** - *Initial work* - [GitHub](https://github.com/drteresavasquez)
+* **Trinity Terry** - *Initial work* - [GitHub](https://github.com/TrinityTerry)
+
+## Shout Out
+
+Thanks for the wonderful challenge goes to:
+**Developer Launchpad** - [GitHub](https://github.com/CompleteDeveloper/)
