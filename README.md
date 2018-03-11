@@ -58,4 +58,4 @@ Add in scores from the games that have been played so that users can see the sco
 ## Shout Out
 
 Thanks for the wonderful challenge goes to:
-**Developer Launchpad** - [GitHub](https://github.com/CompleteDeveloper/)
+**Developer Launchpad** - [Website](http://developerlaunchpad.com/2018/03/10/March-Madness/)
