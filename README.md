@@ -32,7 +32,7 @@ In the js directory, there are 4 JSON files (east, west, midwest, and south) tha
 
 Starting with the paired list of round one competitions build functionality to allow users to predict who will win each game. Once the predicted winners of two with the order list of paired teams and allow users to predict who will win each game.
 
-### A Step Further
+### A Step Further - Level 2
 
 Going a step further allow predictions beyond the current round so that users can make predictions based on their predicted winners.
 
@@ -40,7 +40,7 @@ Going a step further allow predictions beyond the current round so that users ca
 
 Since users are allowed to predict the outcome of games they will want to know if they are correct. Assuming you will be pulling this data from a reliable source mock that with a set of winners and have your bracket periodically check it to update the with the winners of each round. Create a visual way of displaying that a team has won or lost and remove losing teams from future predictions requiring the user to create new predictions based on “actual” outcomes.
 
-### A Step Further
+### A Step Further - Level 3
 
 Add in scores from the games that have been played so that users can see the scores for each team once the have finished a game. Going even further add in scores of games being played currently with a way of identifying them as in progress vs final scores.
 
