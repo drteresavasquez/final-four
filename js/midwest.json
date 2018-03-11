@@ -1,66 +1,66 @@
 {
     "midwest": [{
-            "school": "Vilanova",
+            "school": "Kansas",
             "place": 1
         },
         {
-            "school": "Duke",
+            "school": "Louisville",
             "place": 2
         },
         {
-            "school": "Baylor",
+            "school": "Oregon",
             "place": 3
         }, 
         {
-            "school": "Florida",
+            "school": "Purdue",
             "place": 4
         }, 
         {
-            "school": "Virginia",
+            "school": "Iowa St.",
             "place": 5
         }, 
         {
-            "school": "SMU",
+            "school": "Creighton",
             "place": 6
         }, 
         {
-            "school": "S. Carolina",
+            "school": "Michigan",
             "place": 7
         }, 
         {
-            "school": "Wisconsin",
+            "school": "Miami",
             "place": 8
         }, 
         {
-            "school": "Va. Tech",
+            "school": "Michigan St.",
             "place": 9
         }, 
         {
-            "school": "Marquette",
+            "school": "Oklahoma St.",
             "place": 10
         }, 
         {
-            "school": "USC",
+            "school": "Rhode Island",
             "place": 11
         }, 
         {
-            "school": "UNC-Wilm.",
+            "school": "Nevada",
             "place": 12
         }, 
         {
-            "school": "ETSU",
+            "school": "Vermont",
             "place": 13
         }, 
         {
-            "school": "New Mex St.",
+            "school": "Iona",
             "place": 14
         }, 
         {
-            "school": "Troy",
+            "school": "Jackson State",
             "place": 15
         }, 
         {
-            "school": "Mt. St. Mary’s",
+            "school": "UC Davis",
             "place": 16
         }
     ]

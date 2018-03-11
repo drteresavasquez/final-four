@@ -1,66 +1,66 @@
 {
     "west": [{
-            "school": "Vilanova",
+            "school": "Gonzaga",
             "place": 1
         },
         {
-            "school": "Duke",
+            "school": "Arizona",
             "place": 2
         },
         {
-            "school": "Baylor",
+            "school": "Florida St.",
             "place": 3
         }, 
         {
-            "school": "Florida",
+            "school": "W. Virginia",
             "place": 4
         }, 
         {
-            "school": "Virginia",
+            "school": "Notre Dame",
             "place": 5
         }, 
         {
-            "school": "SMU",
+            "school": "Maryland",
             "place": 6
         }, 
         {
-            "school": "S. Carolina",
+            "school": "St. Mary’s",
             "place": 7
         }, 
         {
-            "school": "Wisconsin",
+            "school": "Northwestern",
             "place": 8
         }, 
         {
-            "school": "Va. Tech",
+            "school": "Vanderbilt",
             "place": 9
         }, 
         {
-            "school": "Marquette",
+            "school": "VCU",
             "place": 10
         }, 
         {
-            "school": "USC",
+            "school": "Xavier",
             "place": 11
         }, 
         {
-            "school": "UNC-Wilm.",
+            "school": "Princeton",
             "place": 12
         }, 
         {
-            "school": "ETSU",
+            "school": "Bucknell",
             "place": 13
         }, 
         {
-            "school": "New Mex St.",
+            "school": "FGCU",
             "place": 14
         }, 
         {
-            "school": "Troy",
+            "school": "North Dakota",
             "place": 15
         }, 
         {
-            "school": "Mt. St. Mary’s",
+            "school": "S. Dak. St.",
             "place": 16
         }
     ]

@@ -1,66 +1,66 @@
 {
     "south": [{
-            "school": "Vilanova",
+            "school": "N. Carolina",
             "place": 1
         },
         {
-            "school": "Duke",
+            "school": "Kentucky",
             "place": 2
         },
         {
-            "school": "Baylor",
+            "school": "UCLA",
             "place": 3
         }, 
         {
-            "school": "Florida",
+            "school": "Butler",
             "place": 4
         }, 
         {
-            "school": "Virginia",
+            "school": "Minnesota",
             "place": 5
         }, 
         {
-            "school": "SMU",
+            "school": "Cincinnati",
             "place": 6
         }, 
         {
-            "school": "S. Carolina",
+            "school": "Dayton",
             "place": 7
         }, 
         {
-            "school": "Wisconsin",
+            "school": "Arkansas",
             "place": 8
         }, 
         {
-            "school": "Va. Tech",
+            "school": "Seton Hall",
             "place": 9
         }, 
         {
-            "school": "Marquette",
+            "school": "Wichita St.",
             "place": 10
         }, 
         {
-            "school": "USC",
+            "school": "Kansas St.",
             "place": 11
         }, 
         {
-            "school": "UNC-Wilm.",
+            "school": "Middle Tenn.",
             "place": 12
         }, 
         {
-            "school": "ETSU",
+            "school": "Winthrop",
             "place": 13
         }, 
         {
-            "school": "New Mex St.",
+            "school": "Kent St.",
             "place": 14
         }, 
         {
-            "school": "Troy",
+            "school": "N. Kentucky",
             "place": 15
         }, 
         {
-            "school": "Mt. St. Mary’s",
+            "school": "Texas So.",
             "place": 16
         }
     ]
