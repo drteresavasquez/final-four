@@ -6,6 +6,18 @@ The highest ranked team plays the lowest ranked team, the second highest plays t
 
 This application allows admin to match up teams for the NCAA Basketball Tournament and score each game. Users can make predictions and check them against the actual outcome of each game.
 
+## Project Setup
+
+To clone this project, run the following in your command line.
+```
+git clone https://github.com/drteresavasquez/final-four.git
+cd final-four
+cd lib
+npm install
+grunt
+hs -o
+```
+
 ## The Challenge
 
 For this challenge we’ve been tasked with creating interactive ways for fans to enjoy tracking and predicting which teams will win. It has become a tradition among many fans to create “brackets” where they predict who will win each game and then compare these with their friends.
