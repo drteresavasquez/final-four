@@ -3,9 +3,16 @@
 let $ = require('jquery'),
     putThemGames = "https://exercisedb-20924.firebaseio.com/final-four/games";
 
-let getData = (url) => {
+
+let getJSONData = (url) => {
     return $.ajax({
         url: url
+    });
+};
+
+let getFBData = (url) => {
+    return $.ajax({
+        url: `${putThemGames}/${url}.json`
     });
 };
 
@@ -21,6 +28,7 @@ function addData(obj, area) {
 }
 
 module.exports = {
-    getData,
+    getJSONData,
+    getFBData,
     addData
 };

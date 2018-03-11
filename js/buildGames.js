@@ -5,9 +5,9 @@ let $ = require('jquery'),
 
 // Checks to ensure there are games in the DB for each conference. If not, the program matches up the teams based on rank and adds them to the DB
 let initialRun = (area) => {
-    getData.getData(`./js/${area}.json`)
+    getData.getJSONData(`./js/${area}.json`)
         .then((data) => {
-            getData.getData(`https://exercisedb-20924.firebaseio.com/final-four/games/${area}.json`)
+            getData.getFBData(area)
                 .then((games) => {
                     let array = data[area];
                     if (games === null) {
@@ -22,6 +22,7 @@ let initialRun = (area) => {
 
 // Builds the bracket dynamically
 let buildGames = (array, area) => {
+    buildDOM(array, area);
     let gameNums = [1, 2, 3, 4, 5, 6, 7, 8];
     array.forEach((item, index) => {
         gameNums.forEach((num) => {
@@ -34,7 +35,6 @@ let buildGames = (array, area) => {
                     "T2score": 0
                 };
                 getData.addData(game, area);
-                buildDOM(array, area);
             }
         });
     });
