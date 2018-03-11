@@ -9,11 +9,10 @@ let initialRun = (area) => {
         .then((data) => {
             getData.getData(`https://exercisedb-20924.firebaseio.com/final-four/games/${area}.json`)
                 .then((games) => {
+                    let array = data[area];
                     if (games === null) {
-                        let array = data[area];
                         buildGames(array, area);
                     } else {
-                        let array = data[area];
                         buildDOM(array, area);
                         console.log("Already Got Games");
                     }
