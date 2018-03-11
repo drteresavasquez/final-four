@@ -13,6 +13,8 @@ let initialRun = (area) => {
                         let array = data[area];
                         buildGames(array, area);
                     } else {
+                        let array = data[area];
+                        buildDOM(array, area);
                         console.log("Already Got Games");
                     }
                 });
@@ -33,7 +35,18 @@ let buildGames = (array, area) => {
                     "T2score": 0
                 };
                 getData.addData(game, area);
+                buildDOM(array, area);
+            }
+        });
+    });
+};
 
+// Build the DOM to show game matchups
+let buildDOM = (array, area) => {
+    let gameNums = [1, 2, 3, 4, 5, 6, 7, 8];
+    array.forEach((item, index) => {
+        gameNums.forEach((num) => {
+            if (item.place === num) {
                 $(".container").append(
                     `<h5>${area.toUpperCase()} Game ${num}</h5>
                     <p>Team 1: ${item.school} (${item.place})<br>
