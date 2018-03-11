@@ -10,7 +10,7 @@ let getData = (url) => {
 };
 
 function addData(obj, area) {
-    $.ajax({
+    return $.ajax({
         url: `${putThemGames}/${area}.json`,
         type: 'POST',
         data: JSON.stringify(obj),

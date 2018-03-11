@@ -40,3 +40,5 @@ let buildGames = (array, area) => {
 
 initialRun("east");
 initialRun("south");
+initialRun("midwest");
+initialRun("west");
